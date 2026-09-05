@@ -1,28 +1,28 @@
 class Orb < Formula
   desc "Compile Orbital schemas to full-stack applications"
   homepage "https://orb.almadar.io"
-  version "3.9.0"
+  version "3.10.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/almadar-io/orb/releases/download/v3.9.0/orb-darwin-x64.tar.gz"
-      sha256 "32756f1fa01add6ac547e56a771ed48400f61592d849c50eb5e781c41074313b"
+      url "https://github.com/almadar-io/orb/releases/download/v3.10.0/orb-darwin-x64.tar.gz"
+      sha256 "5e3e3e1fcb4d0cf63574af054ee2f9ac9b7ce52c6b99d84b343f8b6299153fb0"
     end
     on_arm do
-      url "https://github.com/almadar-io/orb/releases/download/v3.9.0/orb-darwin-arm64.tar.gz"
-      sha256 "4c453b9a80a3c7b516030456aad118796500f34d0216de914a210b171b8eb168"
+      url "https://github.com/almadar-io/orb/releases/download/v3.10.0/orb-darwin-arm64.tar.gz"
+      sha256 "f15839e4ad946283eeb6f75bceb5904aa67d1e42eae146214ddf8b77f247231f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/almadar-io/orb/releases/download/v3.9.0/orb-linux-x64.tar.gz"
-      sha256 "cefabc21e5bab9879d8b13c76d791ce47cf7f18cdf70626008e5add1d83a7efd"
+      url "https://github.com/almadar-io/orb/releases/download/v3.10.0/orb-linux-x64.tar.gz"
+      sha256 "217ae09da3a7ed89a8917296da549330706e40a0b8206e2b9fb887e474e68638"
     end
     on_arm do
-      url "https://github.com/almadar-io/orb/releases/download/v3.9.0/orb-linux-arm64.tar.gz"
-      sha256 "58a4e6963deb433de5425d4ac30a957fa6fbe7a63e4a7f14066d4bde354c36fe"
+      url "https://github.com/almadar-io/orb/releases/download/v3.10.0/orb-linux-arm64.tar.gz"
+      sha256 "413f36f544f82dfad23295789f350e387cecb0d485f3b9eb9e25bf77c0ae736e"
     end
   end
 
